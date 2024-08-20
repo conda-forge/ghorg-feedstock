@@ -1,5 +1,5 @@
 {% set name = "ghorg" %}
-{% set version = "1.9.12" %}
+{% set version = "1.9.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://github.com/gabrie30/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 8052b122ab18570714009a0dd0caf4ac2b437f3f7ab753b2e080a5ce21afddc2
+  sha256: 7f5dbf8a22aced80ed36d712744d295d696ff3894ad152680089196d2dca93c9
 
 build:
   number: 0
 
 requirements:
   build:
-    - {{ compiler('go-nocgo' )}}
+    - {{ compiler('go-nocgo' ) }}
     - go-licenses
 
 test:
