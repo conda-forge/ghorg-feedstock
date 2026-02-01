@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.11.7"
+  version: "1.11.8"
 
 package:
   name: ghorg
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/gabrie30/ghorg/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: e558fb63bda6a6af3951cf79778905c440cab093f33612d33184f24ad5ea7cda
+  sha256: 928f0ddb92a62295a9bdc8dc68fe4fca80991a1c410e2392011dc2c4b04f83f6
 
 build:
   number: 0
